@@ -12,7 +12,7 @@ int main()
         if(n%i == 0)
         {
             flag = 1;
-            //break;
+            break;
         }
     }
 
@@ -28,5 +28,5 @@ int main()
           printf("%d is not a prime number.", n);
     }
     
-   // return 0;
+    return 0;
 }
