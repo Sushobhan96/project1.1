@@ -4,7 +4,7 @@ int main()
     int n, i, flag = 0;
 
     printf("Enter a positive integer: ");
-    scanf("%d", &n);
+    scanf("%d", n);
 
     for(i = 2; i <= n/2; ++i)
     {
@@ -16,7 +16,7 @@ int main()
         }
     }
 
-    if (n == 1) 
+    if (n = 1) 
     {
       printf("1 is neither a prime nor a composite number.");
     }
